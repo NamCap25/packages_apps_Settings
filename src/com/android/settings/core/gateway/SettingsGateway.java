@@ -193,6 +193,7 @@ public class SettingsGateway {
             SmartAutoRotatePreferenceFragment.class.getName(),
             WifiP2pSettings.class.getName(),
             WifiTetherSettings.class.getName(),
+            SleepMode.class.getName(),
             BackgroundCheckSummary.class.getName(),
             VpnSettings.class.getName(),
             DataSaverSummary.class.getName(),
@@ -376,6 +377,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             // Spark additions
             Settings.SparkSettingsSettingsActivity.class.getName(),
-            Settings.DevRunningServicesActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SleepModeActivity.class.getName()
     };
 }
